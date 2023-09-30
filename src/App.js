@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import FlashcardList from "./components/FlashcardList";
 import SAMPLE_FLASHCARDS from "./constants/index";
 import { useState, useEffect } from "react";
@@ -10,7 +11,7 @@ function App() {
 
   useEffect(() => {
     filterFlashcards();
-  }, [selectedCategory, numQuestions]); // Added numQuestions dependency
+  }, [selectedCategory, numQuestions, filterFlashcards]); // Added numQuestions dependency
 
   function filterFlashcards() {
     let filtered = SAMPLE_FLASHCARDS;
