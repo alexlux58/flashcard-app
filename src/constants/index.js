@@ -2,6 +2,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 1,
     category: "React",
+    subcategory: "React Basics",
     question: "What is React?",
     answer: "A library for managing user interfaces",
     options: [
@@ -14,6 +15,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 2,
     category: "CCNA",
+    subcategory: "OSI Model",
     question: "What does OSI stand for?",
     answer: "Open Systems Interconnection",
     options: [
@@ -26,6 +28,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 3,
     category: "CCNA",
+    subcategory: "OSI Model",
     question: "Which layer of the OSI model deals with routing?",
     answer: "Network Layer",
     options: [
@@ -38,6 +41,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 4,
     category: "CCNA",
+    subcategory: "IP Addressing",
     question: "What is the default subnet mask for a Class C IP address?",
     answer: "255.255.255.0",
     options: ["255.0.0.0", "255.255.0.0", "255.255.255.0", "255.255.255.255"],
@@ -45,6 +49,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 5,
     category: "CCNA",
+    subcategory: "Networking Protocols",
     question: "Which protocol is used for sending email?",
     answer: "SMTP",
     options: ["HTTP", "FTP", "SMTP", "SNMP"],
@@ -52,6 +57,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 6,
     category: "CCNA",
+    subcategory: "Networking Concepts",
     question: "What is the purpose of a VLAN?",
     answer: "To segment a network",
     options: [
@@ -64,6 +70,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 7,
     category: "React",
+    subcategory: "React Basics",
     question: "What is JSX?",
     answer: "JavaScript XML",
     options: [
@@ -76,6 +83,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 8,
     category: "React",
+    subcategory: "React Hooks",
     question: "Which hook is used for side-effects?",
     answer: "useEffect",
     options: ["useState", "useEffect", "useContext", "useReducer"],
@@ -83,6 +91,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 9,
     category: "React",
+    subcategory: "State Management",
     question: "What is Redux?",
     answer: "A state management library",
     options: [
@@ -95,6 +104,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 10,
     category: "React",
+    subcategory: "Routing",
     question: "What is React Router?",
     answer: "A routing library for React",
     options: [
@@ -107,6 +117,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 11,
     category: "React",
+    subcategory: "React Basics",
     question: "What is a React component?",
     answer: "A reusable piece of UI",
     options: [
@@ -119,6 +130,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 12,
     category: "React",
+    subcategory: "React Basics",
     question: "What is React's virtual DOM?",
     answer: "An in-memory representation of the real DOM elements",
     options: [
@@ -131,6 +143,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 13,
     category: "React",
+    subcategory: "React Basics",
     question: "What is a React Fragment?",
     answer: "A way to return multiple elements",
     options: [
@@ -143,6 +156,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 14,
     category: "React",
+    subcategory: "React Basics",
     question: "What is a React Portal?",
     answer:
       "A way to render children into a DOM node that exists outside the DOM hierarchy",
@@ -156,6 +170,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 15,
     category: "React",
+    subcategory: "React Basics",
     question: "What is Context in React?",
     answer:
       "A way to pass data through the component tree without having to pass props down manually",
@@ -169,6 +184,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 16,
     category: "React",
+    subcategory: "React Basics",
     question: "What is a React Hook?",
     answer:
       "A function that lets you use state and other React features without writing a class",
@@ -182,6 +198,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 17,
     category: "CCNA",
+    subcategory: "IP Addressing",
     question: "What is the range of private IP addresses for Class A?",
     answer: "10.0.0.0 to 10.255.255.255",
     options: [
@@ -194,7 +211,8 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 18,
     category: "CCNA",
-    question: "What is NAT?",
+    subcategory: "Networking Protocols",
+    question: "What is NAT? (Network Address Translation)",
     answer: "Network Address Translation",
     options: [
       "Network Address Translation",
@@ -206,137 +224,256 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 19,
     category: "CCNA",
-    question: "What does DHCP stand for?",
-    answer: "Dynamic Host Configuration Protocol",
+    subcategory: "Networking Concepts",
+    question: "What is a firewall used for?",
+    answer: "To control incoming and outgoing network traffic",
     options: [
-      "Dynamic Host Configuration Protocol",
-      "Data High Connectivity Protocol",
-      "Dynamic Hyper Control Protocol",
-      "Direct Host Control Protocol",
+      "To filter spam emails",
+      "To control incoming and outgoing network traffic",
+      "To improve Wi-Fi signal strength",
+      "To encrypt data",
     ],
   },
   {
     id: 20,
-    category: "CCNA",
-    question: "What is the function of ICMP?",
-    answer: "Error reporting and diagnostics",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is Python?",
+    answer: "A high-level programming language",
     options: [
-      "Error reporting and diagnostics",
-      "Internet Control Message Protocol",
-      "Internal Configuration Management Protocol",
-      "None of the above",
+      "A type of snake",
+      "A high-level programming language",
+      "A data storage format",
+      "A computer manufacturer",
     ],
   },
   {
     id: 21,
-    category: "CCNA",
-    question: "What is the range of Class B private IP addresses?",
-    answer: "172.16.0.0 to 172.31.255.255",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is the main use of Python?",
+    answer: "Web development, data analysis, artificial intelligence, and more",
     options: [
-      "10.0.0.0 to 10.255.255.255",
-      "172.16.0.0 to 172.31.255.255",
-      "192.168.0.0 to 192.168.255.255",
-      "None of the above",
+      "Web development",
+      "Data analysis",
+      "Artificial intelligence",
+      "All of the above",
     ],
   },
   {
     id: 22,
-    category: "CCNA",
-    question: "What is the purpose of the Spanning Tree Protocol (STP)?",
-    answer: "To prevent network loops",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is the PEP 8 style guide for Python?",
+    answer: "A set of conventions for writing Python code",
     options: [
-      "To prevent network loops",
-      "To create network loops",
-      "To manage VLANs",
-      "To encrypt data packets",
+      "A type of snake",
+      "A computer manufacturer",
+      "A set of conventions for writing Python code",
+      "A Python package",
     ],
   },
   {
     id: 23,
-    category: "CCNA",
-    question: "Which protocol is used for remote terminal connection?",
-    answer: "Telnet",
-    options: ["HTTP", "Telnet", "FTP", "SSH"],
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is the purpose of indentation in Python?",
+    answer: "To indicate blocks of code",
+    options: [
+      "To make the code look pretty",
+      "To indicate blocks of code",
+      "To create comments",
+      "To import libraries",
+    ],
   },
   {
     id: 24,
-    category: "CCNA",
-    question: "What does VPN stand for?",
-    answer: "Virtual Private Network",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python variable?",
+    answer: "A symbolic name for a value",
     options: [
-      "Virtual Public Network",
-      "Virtual Private Network",
-      "Variable Port Network",
-      "None of the above",
+      "A data structure",
+      "A symbolic name for a value",
+      "A Python module",
+      "A reserved keyword",
     ],
   },
   {
     id: 25,
-    category: "CCNA",
-    question: "What is the purpose of DNS?",
-    answer: "To translate domain names to IP addresses",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python function?",
+    answer: "A reusable block of code",
     options: [
-      "To translate domain names to IP addresses",
-      "To provide routing services",
-      "To manage network devices",
-      "To encrypt data packets",
+      "A type of variable",
+      "A Python module",
+      "A reusable block of code",
+      "A reserved keyword",
     ],
   },
   {
     id: 26,
-    category: "CCNA",
-    question: "What is the standard port for HTTP?",
-    answer: "80",
-    options: ["21", "22", "80", "443"],
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python list?",
+    answer: "An ordered collection of items",
+    options: [
+      "An ordered collection of items",
+      "A Python module",
+      "A reserved keyword",
+      "A type of loop",
+    ],
   },
   {
     id: 27,
-    category: "CCNA",
-    question: "What is the function of a firewall?",
-    answer: "To filter incoming and outgoing network traffic",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python dictionary?",
+    answer: "A collection of key-value pairs",
     options: [
-      "To filter incoming and outgoing network traffic",
-      "To provide DNS services",
-      "To manage IP addresses",
-      "None of the above",
+      "A collection of key-value pairs",
+      "A Python module",
+      "A reserved keyword",
+      "A type of loop",
     ],
   },
   {
     id: 28,
-    category: "CCNA",
-    question: "What does OSPF stand for?",
-    answer: "Open Shortest Path First",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python class?",
+    answer: "A blueprint for creating objects",
     options: [
-      "Open Shortest Path First",
-      "Optimal Signal Path Finding",
-      "Open Signal Path First",
-      "Optimal Shortest Path Finding",
+      "A blueprint for creating objects",
+      "A Python module",
+      "A reserved keyword",
+      "A type of loop",
     ],
   },
   {
     id: 29,
-    category: "CCNA",
-    question: "What is the OSPF default administrative distance?",
-    answer: "110",
-    options: ["100", "110", "120", "130"],
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python module?",
+    answer: "A file containing Python code",
+    options: [
+      "A blueprint for creating objects",
+      "A file containing Python code",
+      "A reserved keyword",
+      "A type of loop",
+    ],
   },
   {
     id: 30,
-    category: "CCNA",
-    question: "What is the purpose of OSPF areas?",
-    answer: "To segment an OSPF network into smaller parts",
+    category: "Python",
+    subcategory: "Python Basics",
+    question: "What is a Python package?",
+    answer: "A collection of Python modules",
     options: [
-      "To segment an OSPF network into smaller parts",
-      "To prioritize OSPF routes",
-      "To encrypt OSPF packets",
+      "A file containing Python code",
+      "A collection of Python modules",
+      "A reserved keyword",
+      "A type of loop",
+    ],
+  },
+  {
+    id: 31,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is Django?",
+    answer: "A high-level Python web framework",
+    options: [
+      "A type of snake",
+      "A high-level Python web framework",
+      "A data storage format",
+      "A computer manufacturer",
+    ],
+  },
+  {
+    id: 32,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is the main use of Django?",
+    answer: "Building web applications",
+    options: [
+      "Building web applications",
+      "Data analysis",
+      "Artificial intelligence",
+      "All of the above",
+    ],
+  },
+  {
+    id: 33,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is the Django ORM?",
+    answer: "Object-Relational Mapping",
+    options: [
+      "Object-Relational Mapping",
+      "Object-Relational Database",
+      "Object-Relational Model",
       "None of the above",
     ],
   },
-  // ... Continue with more OSPF questions
+  {
+    id: 34,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is a Django model?",
+    answer: "A Python class that represents a database table",
+    options: [
+      "A Python function",
+      "A Python class that represents a database table",
+      "A Python module",
+      "A reserved keyword",
+    ],
+  },
+  {
+    id: 35,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is a Django view?",
+    answer:
+      "A Python function that takes a web request and returns a web response",
+    options: [
+      "A Python class",
+      "A Python function that takes a web request and returns a web response",
+      "A Python module",
+      "A reserved keyword",
+    ],
+  },
+  {
+    id: 36,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is a Django template?",
+    answer: "A text file containing HTML and template tags",
+    options: [
+      "A Python function",
+      "A text file containing HTML and template tags",
+      "A Python module",
+      "A reserved keyword",
+    ],
+  },
+  {
+    id: 37,
+    category: "Django",
+    subcategory: "Django Basics",
+    question: "What is a Django URL pattern?",
+    answer: "A regular expression that maps to a view function",
+    options: [
+      "A Python class",
+      "A regular expression that maps to a view function",
+      "A Python module",
+      "A reserved keyword",
+    ],
+  },
 
   {
-    id: 47,
+    id: 38,
     category: "CCNA",
+    subcategory: "Network Protocols",
     question: "What is the main difference between TCP and UDP?",
     answer: "TCP is connection-oriented, UDP is connectionless",
     options: [
@@ -347,29 +484,33 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 48,
+    id: 39,
     category: "CCNA",
+    subcategory: "Network Protocols",
     question: "What port does UDP use for DNS queries?",
     answer: "53",
     options: ["53", "80", "443", "8080"],
   },
   {
-    id: 49,
+    id: 40,
     category: "CCNA",
+    subcategory: "Switching",
     question: "Which STP state immediately follows the blocking state?",
     answer: "Listening",
     options: ["Listening", "Learning", "Forwarding", "Disabled"],
   },
   {
-    id: 50,
+    id: 41,
     category: "CCNA",
+    subcategory: "Wireless Networking",
     question: "What wireless standard operates at 5GHz frequency?",
     answer: "802.11a",
     options: ["802.11a", "802.11b", "802.11g", "802.11n"],
   },
   {
-    id: 51,
+    id: 42,
     category: "CCNA",
+    subcategory: "Wireless Security",
     question: "What is the purpose of WPA in a wireless network?",
     answer: "To provide security through encryption",
     options: [
@@ -380,22 +521,25 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 52,
+    id: 43,
     category: "CCNA",
+    subcategory: "Switching",
     question: "What is the default STP priority?",
     answer: "32768",
     options: ["1024", "4096", "32768", "65536"],
   },
   {
-    id: 53,
+    id: 44,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the maximum hop count for OSPF?",
     answer: "Infinite",
     options: ["15", "16", "Infinite", "None of the above"],
   },
   {
-    id: 54,
+    id: 45,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the 'show ip ospf neighbor' command?",
     answer: "To display OSPF neighbor information",
     options: [
@@ -406,8 +550,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 55,
+    id: 46,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the OSPF Router ID format?",
     answer: "32-bit number",
     options: [
@@ -418,15 +563,17 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 56,
+    id: 47,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the default hello interval for OSPF?",
     answer: "10 seconds",
     options: ["5 seconds", "10 seconds", "30 seconds", "60 seconds"],
   },
   {
-    id: 57,
+    id: 48,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF DR (Designated Router)?",
     answer: "To optimize OSPF network traffic",
     options: [
@@ -437,8 +584,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 58,
+    id: 49,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the 'cost' in OSPF?",
     answer: "To determine the best path for data packets",
     options: [
@@ -449,8 +597,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 59,
+    id: 50,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF LSA (Link-State Advertisement)?",
     answer: "To advertise routing information",
     options: [
@@ -461,16 +610,18 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 60,
+    id: 51,
     category: "CCNA",
+    subcategory: "OSPF",
     question:
       "What is the default OSPF hello interval on a point-to-point network?",
     answer: "10 seconds",
     options: ["5 seconds", "10 seconds", "30 seconds", "60 seconds"],
   },
   {
-    id: 61,
+    id: 52,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the OSPF network command used for?",
     answer: "To specify which interfaces will participate in OSPF",
     options: [
@@ -481,8 +632,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 62,
+    id: 53,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF 'area range' command?",
     answer: "To summarize routes at an area boundary",
     options: [
@@ -493,8 +645,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 63,
+    id: 54,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the 'show ip ospf interface' command?",
     answer: "To display OSPF-related interface information",
     options: [
@@ -505,8 +658,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 64,
+    id: 55,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the OSPF RID (Router ID) used for?",
     answer: "To uniquely identify a router in an OSPF network",
     options: [
@@ -517,8 +671,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 65,
+    id: 56,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF 'network' command?",
     answer: "To enable OSPF on specified interfaces",
     options: [
@@ -529,8 +684,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 66,
+    id: 57,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF 'passive-interface' command?",
     answer: "To prevent OSPF updates from being sent out an interface",
     options: [
@@ -541,8 +697,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 67,
+    id: 58,
     category: "CCNA",
+    subcategory: "OSPF",
     question:
       "What is the purpose of the OSPF 'default-information originate' command?",
     answer: "To generate a default route into OSPF",
@@ -554,8 +711,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 68,
+    id: 59,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF 'area' command?",
     answer: "To assign an interface to a specific OSPF area",
     options: [
@@ -566,8 +724,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 69,
+    id: 60,
     category: "CCNA",
+    subcategory: "OSPF",
     question: "What is the purpose of the OSPF 'router-id' command?",
     answer: "To manually set the OSPF router ID",
     options: [
@@ -578,8 +737,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 70,
+    id: 61,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question: "What is the purpose of the OSPF 'redistribute' command?",
     answer: "To inject routes from another routing protocol into OSPF",
     options: [
@@ -590,8 +750,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 71,
+    id: 62,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question: "What is the purpose of the OSPF 'summary-address' command?",
     answer: "To manually configure OSPF route summarization",
     options: [
@@ -602,8 +763,9 @@ const SAMPLE_FLASHCARDS = [
     ],
   },
   {
-    id: 72,
+    id: 63,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question: "What is the purpose of the OSPF 'timers' command?",
     answer: "To manually set OSPF hello and dead intervals",
     options: [
@@ -616,6 +778,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 73,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question: "What is the purpose of the OSPF 'virtual-link' command?",
     answer: "To configure an OSPF virtual link",
     options: [
@@ -628,6 +791,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 74,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question:
       "What is the purpose of the OSPF 'clear ip ospf process' command?",
     answer: "To reset the OSPF process",
@@ -641,6 +805,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 75,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question:
       "What is the purpose of the OSPF 'show ip ospf database' command?",
     answer: "To display the OSPF link-state database",
@@ -654,6 +819,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 76,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question: "What is the purpose of the OSPF 'show ip ospf route' command?",
     answer: "To display the OSPF routing table",
     options: [
@@ -666,6 +832,7 @@ const SAMPLE_FLASHCARDS = [
   {
     id: 77,
     category: "CCNA",
+    subcategory: "OSPF Commands",
     question:
       "What is the purpose of the OSPF 'show ip ospf interface brief' command?",
     answer: "To display a brief summary of OSPF interfaces",
