@@ -64,6 +64,7 @@ function App() {
           <label htmlFor="subcategory">Subcategory</label>
           <select id="subcategory" onChange={handleSubcategoryChange}>
             <option value="All">All</option>
+            <option value="OSPF">OSPF</option>
             <option value="OSPF Commands">OSPF Commands</option>
             <option value="React Basics">React Basics</option>
             <option value="IP Addressing">IP Addressing</option>
