@@ -1234,6 +1234,246 @@ const SAMPLE_FLASHCARDS = [
       "To encrypt all plaintext passwords",
     ],
   },
+  {
+    id: 107,
+    category: "Cybersecurity",
+    subcategory: "Asymmetric Algorithms",
+    question: "What is the primary purpose of Diffie-Hellman key exchange?",
+    answer:
+      "To securely generate a shared secret between two parties over an insecure channel, which can be used for symmetric encryption.",
+    options: [
+      "To encrypt and decrypt messages",
+      "To generate a shared secret",
+      "To sign digital certificates",
+      "To authenticate users",
+    ],
+  },
+  {
+    id: 108,
+    category: "Cybersecurity",
+    subcategory: "Asymmetric Algorithms",
+    question: "What is RSA commonly used for in cybersecurity?",
+    answer:
+      "RSA is used for encrypting data, securing communications, and digitally signing documents.",
+    options: [
+      "For hashing functions",
+      "For symmetric key encryption",
+      "For encrypting data and digital signatures",
+      "For network routing",
+    ],
+  },
+  {
+    id: 109,
+    category: "Cybersecurity",
+    subcategory: "Asymmetric Algorithms",
+    question:
+      "What is the advantage of using Elliptic Curve Cryptography (ECC) over RSA?",
+    answer:
+      "ECC provides the same level of security as RSA but with smaller key sizes, making it more efficient, especially for use in mobile devices.",
+    options: [
+      "Faster hash computations",
+      "Smaller key sizes with equivalent security",
+      "Larger key sizes for better security",
+      "Easier implementation",
+    ],
+  },
+  {
+    id: 110,
+    category: "Cybersecurity",
+    subcategory: "Asymmetric Algorithms",
+    question: "What is the significance of ephemeral keys in cryptography?",
+    answer:
+      "Ephemeral keys enhance security by being used for a single session only, reducing the risk of long-term key compromise and subsequent decryption of intercepted communications.",
+    options: [
+      "They are easier to generate",
+      "They provide long-term security",
+      "They reduce the risk of key compromise",
+      "They are used for digital signatures",
+    ],
+  },
+  {
+    id: 111,
+    category: "Cybersecurity",
+    subcategory: "Asymmetric Algorithms",
+    question:
+      "What is the role of Pretty Good Privacy (PGP) in secure communications?",
+    answer:
+      "PGP is used to encrypt and decrypt texts, emails, files, directories, and whole disk partitions to increase the security of email communications.",
+    options: [
+      "To create secure network tunnels",
+      "To encrypt and decrypt communications",
+      "To manage passwords",
+      "To detect network intrusions",
+    ],
+  },
+  {
+    id: 112,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question:
+      "What is the Advanced Encryption Standard (AES) primarily used for?",
+    answer:
+      "AES is used for securing sensitive but unclassified material by U.S. government agencies and, as a likely consequence, became the most used algorithm in symmetric key cryptography.",
+    options: [
+      "Digital signatures",
+      "Key exchange",
+      "Secure hashing",
+      "Encrypting data",
+    ],
+  },
+  {
+    id: 113,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "What key lengths does AES support?",
+    answer: "AES supports key lengths of 128, 192, and 256 bits.",
+    options: [
+      "64 and 128 bits",
+      "128, 192, and 256 bits",
+      "256 and 512 bits",
+      "1024 and 2048 bits",
+    ],
+  },
+  {
+    id: 114,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "What is Data Encryption Standard (DES) known for?",
+    answer:
+      "DES is known as an outdated encryption algorithm due to its 56-bit key size, which is now considered to be insecure against brute-force attacks.",
+    options: [
+      "Its strong 256-bit key",
+      "Its use in blockchain technology",
+      "Being outdated and insecure",
+      "Its speed in encrypting data",
+    ],
+  },
+  {
+    id: 115,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "How does Triple DES enhance the security of DES?",
+    answer:
+      "Triple DES applies the DES encryption process three times using two or three keys to increase security.",
+    options: [
+      "By using a larger block size",
+      "By encrypting data three times",
+      "By employing asymmetric encryption",
+      "By implementing a faster algorithm",
+    ],
+  },
+  {
+    id: 116,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "What is the main reason for the discouragement of using RC4?",
+    answer:
+      "RC4 is discouraged due to vulnerabilities that make it susceptible to several types of attacks, such as the Key Reuse Attack.",
+    options: [
+      "Its slow performance",
+      "Its complex key management",
+      "Its susceptibility to attacks",
+      "Its large key size requirement",
+    ],
+  },
+  {
+    id: 117,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "What is Blowfish primarily used for?",
+    answer:
+      "Blowfish is used for encrypting data and is known for its speed and the fact that it remains unpatented and license-free.",
+    options: [
+      "Encrypting data quickly and securely",
+      "Exchanging keys",
+      "Generating hash functions",
+      "Creating digital signatures",
+    ],
+  },
+  {
+    id: 118,
+    category: "Cybersecurity",
+    subcategory: "Symmetric Algorithms",
+    question: "What are the characteristics of Twofish?",
+    answer:
+      "Twofish is a symmetric key block cipher with a block size of 128 bits and key sizes up to 256 bits, known for its flexibility and security.",
+    options: [
+      "128-bit block size, up to 256-bit keys",
+      "64-bit block size, fixed key length",
+      "256-bit block size, variable key length",
+      "1024-bit block size for high security",
+    ],
+  },
+  {
+    id: 119,
+    category: "Cybersecurity",
+    subcategory: "Encryption",
+    question: "What is the purpose of XOR encryption when used with AES?",
+    answer:
+      "XOR encryption is used in combination with AES to apply a one-time pad, which is a simple and effective method for certain encryption scenarios.",
+    options: [
+      "To encrypt data one byte at a time",
+      "To create a one-time pad for encryption",
+      "For key exchange mechanisms",
+      "To generate hash functions",
+    ],
+  },
+  {
+    id: 120,
+    category: "Cybersecurity",
+    subcategory: "Key Stretching Algorithms",
+    question: "What is key stretching and how does BCRYPT apply it?",
+    answer:
+      "Key stretching strengthens passwords by appending random characters to increase size and complexity, with BCRYPT additionally salting the passwords.",
+    options: [
+      "It encrypts passwords with Blowfish",
+      "It compresses passwords for storage",
+      "It appends characters to strengthen passwords",
+      "It creates keys for symmetric encryption",
+    ],
+  },
+  {
+    id: 121,
+    category: "Cybersecurity",
+    subcategory: "Key Stretching Algorithms",
+    question: "What does PBKDF2 do and how does it enhance security?",
+    answer:
+      "PBKDF2 enhances password security by using a salt and iterating the hash process to protect against rainbow table attacks.",
+    options: [
+      "It encrypts passwords with a single iteration",
+      "It hashes passwords without a salt",
+      "It uses a salt and iterations to secure passwords",
+      "It generates asymmetric keys",
+    ],
+  },
+  {
+    id: 122,
+    category: "Cybersecurity",
+    subcategory: "Password Security",
+    question: "What is 'salting' in the context of password security?",
+    answer:
+      "Salting involves appending random characters to a password before it is hashed to increase complexity and protect against brute force attacks.",
+    options: [
+      "Encrypting a password",
+      "Compressing password data",
+      "Appending random characters before hashing",
+      "Storing passwords in plaintext",
+    ],
+  },
+  {
+    id: 123,
+    category: "Cybersecurity",
+    subcategory: "Cipher Modes",
+    question: "What is the main difference between stream and block ciphers?",
+    answer:
+      "Stream ciphers encrypt data one bit at a time, while block ciphers encrypt data in fixed-size blocks, such as 128 bits at a time.",
+    options: [
+      "Stream ciphers use keys; block ciphers do not",
+      "Stream ciphers are faster than block ciphers",
+      "Block ciphers encrypt fixed-size blocks; stream ciphers do bit by bit",
+      "Block ciphers are used for data at rest; stream ciphers for data in transit",
+    ],
+  },
 ];
 
 export default SAMPLE_FLASHCARDS;
