@@ -843,6 +843,397 @@ const SAMPLE_FLASHCARDS = [
       "None of the above",
     ],
   },
+  {
+    id: 78,
+    category: "Cybersecurity",
+    subcategory: "Fundamentals",
+    question:
+      "What does confidentiality mean in the context of information security?",
+    answer:
+      "Ensuring that information is not disclosed to unauthorized individuals, entities, or processes",
+    options: [
+      "Ensuring information is protected from unauthorized access and disclosure",
+      "Ensuring information is complete and unaltered",
+      "Ensuring information and services are accessible when needed",
+      "None of the above",
+    ],
+  },
+  {
+    id: 79,
+    category: "Cybersecurity",
+    subcategory: "Access Control",
+    question: "How can you control access of personnel to a data center?",
+    answer:
+      "Implementing physical access controls such as biometric systems, key cards, and mantraps",
+    options: [
+      "Using strong passwords",
+      "Installing antivirus software",
+      "Implementing physical access controls such as biometric systems, key cards, and mantraps",
+      "None of the above",
+    ],
+  },
+  {
+    id: 80,
+    category: "Cybersecurity",
+    subcategory: "Network Security",
+    question: "What is the purpose of an air gap in cybersecurity?",
+    answer:
+      "To ensure a secure network is physically isolated from unsecured networks",
+    options: [
+      "To cool down the servers in a data center",
+      "To ensure a secure network is physically isolated from unsecured networks",
+      "To filter the air coming into the data center",
+      "None of the above",
+    ],
+  },
+  {
+    id: 81,
+    category: "CCNA",
+    subcategory: "OSPF Commands",
+    question:
+      "What command would you use to verify the OSPF process on a router?",
+    answer: "show ip ospf",
+    options: [
+      "show ip ospf",
+      "show ip route ospf",
+      "show ospf database",
+      "None of the above",
+    ],
+  },
+  {
+    id: 82,
+    category: "CCNA",
+    subcategory: "OSPF Commands",
+    question: "Which OSPF command can show you the OSPF neighbors on a router?",
+    answer: "show ip ospf neighbor",
+    options: [
+      "show ip ospf",
+      "show ip ospf route",
+      "show ip ospf neighbor",
+      "None of the above",
+    ],
+  },
+  {
+    id: 83,
+    category: "Cybersecurity",
+    subcategory: "Control Categories",
+    question: "Name three main control categories.",
+    answer: "Preventive, Detective, and Corrective",
+    options: [
+      "Preventive, Detective, and Corrective",
+      "Administrative, Technical, and Physical",
+      "Mandatory, Discretionary, and Non-discretionary",
+      "Operational, Managerial, and Executive",
+    ],
+  },
+  {
+    id: 84,
+    category: "Physical Security",
+    subcategory: "Security Controls",
+    question: "Name three physical controls.",
+    answer: "Fences, locks, and security guards",
+    options: [
+      "Fences, locks, and security guards",
+      "Firewalls, IDS, and IPS",
+      "Encryption, tokenization, and masking",
+      "Policies, procedures, and guidelines",
+    ],
+  },
+  {
+    id: 85,
+    category: "Incident Response",
+    subcategory: "Incident Handling",
+    question:
+      "Following an incident, what type of control will be used when researching how the incident happened?",
+    answer: "Detective control",
+    options: [
+      "Preventive control",
+      "Detective control",
+      "Corrective control",
+      "Compensating control",
+    ],
+  },
+  {
+    id: 86,
+    category: "Data Integrity",
+    subcategory: "Security Fundamentals",
+    question: "How do you know whether the integrity of your data is intact?",
+    answer:
+      "By verifying data has not been tampered with, using checksums, hashes, and digital signatures",
+    options: [
+      "By checking data availability",
+      "By verifying data has not been tampered with, using checksums, hashes, and digital signatures",
+      "By confirming data confidentiality",
+      "By ensuring data redundancy",
+    ],
+  },
+  {
+    id: 87,
+    category: "Cybersecurity",
+    subcategory: "Control Types",
+    question: "What is a corrective control?",
+    answer:
+      "A control that aims to mitigate or correct the impact of an incident",
+    options: [
+      "A control that prevents an incident from occurring",
+      "A control that detects an ongoing incident",
+      "A control that aims to mitigate or correct the impact of an incident",
+      "A control that restores systems to normal after an incident",
+    ],
+  },
+  {
+    id: 88,
+    category: "Network Security",
+    subcategory: "Firewall Management",
+    question: "What type of control is it when you change the firewall rules?",
+    answer: "Preventive control",
+    options: [
+      "Corrective control",
+      "Detective control",
+      "Preventive control",
+      "Compensating control",
+    ],
+  },
+  {
+    id: 89,
+    category: "Authentication",
+    subcategory: "Access Control",
+    question:
+      "What is used to log in to a system that works in conjunction with a PIN?",
+    answer:
+      "Two-factor authentication (something you know, and something you have)",
+    options: [
+      "Password authentication",
+      "Biometric authentication",
+      "Token-based authentication",
+      "Two-factor authentication (something you know, and something you have)",
+    ],
+  },
+  {
+    id: 90,
+    category: "React",
+    subcategory: "React/MobX",
+    question: "What is the purpose of makeAutoObservable in MobX?",
+    answer:
+      "It is used for automatically making all properties observable and actions of the class.",
+    options: [
+      "To observe changes in state",
+      "To automatically make properties observable",
+      "To mutate state directly",
+      "To create new instances of the class",
+    ],
+  },
+  {
+    id: 91,
+    category: "React",
+    subcategory: "React/MobX",
+    question: "What is the role of 'reaction' in MobX?",
+    answer:
+      "It is used to react to changes in observable data and to run side effects.",
+    options: [
+      "To initiate state",
+      "To handle asynchronous actions",
+      "To react to changes in data",
+      "To replace Redux",
+    ],
+  },
+  {
+    id: 92,
+    category: "CCNA",
+    subcategory: "Ethernet Standards",
+    question: "What does '1000BASE-T' represent?",
+    answer:
+      "Gigabit Ethernet, which operates at 1000 Mbps using baseband signaling over twisted pair cables.",
+    options: [
+      "Fast Ethernet",
+      "Gigabit Ethernet",
+      "Ethernet over Coaxial",
+      "10 Gigabit Ethernet",
+    ],
+  },
+  {
+    id: 93,
+    category: "React",
+    subcategory: "React/MobX",
+    question: "What is the significance of 'runInAction' in MobX?",
+    answer:
+      "It is used for modifying the state within an asynchronous action or reaction.",
+    options: [
+      "To run all actions sequentially",
+      "To dispatch an action",
+      "To modify the state in an action",
+      "To create a new store",
+    ],
+  },
+  {
+    id: 94,
+    category: "CCNA",
+    subcategory: "Ethernet Standards",
+    question: "What is '100BASE-T' commonly known as?",
+    answer:
+      "Fast Ethernet, transmitting at 100 Mbps using baseband signaling and twisted pair cables.",
+    options: [
+      "Standard Ethernet",
+      "Fast Ethernet",
+      "Gigabit Ethernet",
+      "10 Gigabit Ethernet",
+    ],
+  },
+  {
+    id: 95,
+    category: "CCNA",
+    subcategory: "Ethernet Standards",
+    question: "What does '10BASE-T' stand for in networking?",
+    answer:
+      "An Ethernet standard that transmits at 10 Mbps, uses baseband signaling, and twisted pair cables.",
+    options: [
+      "10 Mbps Baseband, Twisted pair",
+      "10 Mbps Broadband, Coaxial",
+      "100 Mbps Baseband, Twisted pair",
+      "1000 Mbps Baseband, Twisted pair",
+    ],
+  },
+  {
+    id: 96,
+    category: "CCNA",
+    subcategory: "Ethernet Standards",
+    question: "What does '1000BASE-T' represent?",
+    answer:
+      "Gigabit Ethernet, which operates at 1000 Mbps using baseband signaling over twisted pair cables.",
+    options: [
+      "Fast Ethernet",
+      "Gigabit Ethernet",
+      "Ethernet over Coaxial",
+      "10 Gigabit Ethernet",
+    ],
+  },
+  {
+    id: 97,
+    category: "CCNA",
+    subcategory: "Ethernet Categories",
+    question: "What speed does Fast Ethernet support?",
+    answer: "Fast Ethernet supports 100 Mbps.",
+    options: ["10 Mbps", "100 Mbps", "1000 Mbps", "10 Gbps"],
+  },
+  {
+    id: 98,
+    category: "CCNA",
+    subcategory: "Ethernet Categories",
+    question: "What is the speed of Gigabit Ethernet?",
+    answer: "Gigabit Ethernet supports speeds of 1000 Mbps or 1 Gbps.",
+    options: ["100 Mbps", "1000 Mbps", "10 Gbps", "100 Gbps"],
+  },
+  {
+    id: 99,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What is the purpose of the 'interface type port-number' command in Cisco IOS?",
+    answer:
+      "It is used to enter the interface configuration mode for a specific port, like 'FastEthernet 0/1'.",
+    options: [
+      "To configure global settings",
+      "To set the hostname",
+      "To enter interface configuration mode",
+      "To save the current configuration",
+    ],
+  },
+  {
+    id: 100,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'hostname name' command do in Cisco IOS?",
+    answer:
+      "It sets the device's hostname, used as part of the command prompt.",
+    options: [
+      "To display the device's hostname",
+      "To set the device's hostname",
+      "To enter hostname configuration mode",
+      "To revert to the default hostname",
+    ],
+  },
+  {
+    id: 101,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the function of the 'exit' command in Cisco IOS?",
+    answer:
+      "It exits the current configuration mode and returns to the higher configuration mode.",
+    options: [
+      "To log out of the device",
+      "To exit the current mode",
+      "To restart the device",
+      "To display exit options",
+    ],
+  },
+  {
+    id: 102,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the effect of the 'end' command in Cisco IOS?",
+    answer:
+      "It exits any configuration mode and returns to the privileged EXEC mode.",
+    options: [
+      "To end the current session",
+      "To save the configuration",
+      "To exit to privileged EXEC mode",
+      "To show the running configuration",
+    ],
+  },
+  {
+    id: 103,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does 'Ctrl+Z' do in Cisco IOS?",
+    answer:
+      "It exits the configuration mode and returns to the privileged EXEC mode.",
+    options: [
+      "To cancel the last command",
+      "To suspend the current process",
+      "To exit to privileged EXEC mode",
+      "To restart the device",
+    ],
+  },
+  {
+    id: 104,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'line console 0' command configure in Cisco IOS?",
+    answer: "It is used to configure the console line parameters.",
+    options: [
+      "To configure the first console port",
+      "To configure virtual terminal lines",
+      "To display line console settings",
+      "To configure the console line parameters",
+    ],
+  },
+  {
+    id: 105,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the purpose of the 'login' command in Cisco IOS?",
+    answer:
+      "It tells IOS to prompt for a password on the console or vty lines.",
+    options: [
+      "To log into a remote device",
+      "To enable password checking",
+      "To create a new user account",
+      "To prompt for a password on console/vty lines",
+    ],
+  },
+  {
+    id: 106,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'password value' command do in Cisco IOS?",
+    answer: "It sets the password for the line where it is configured.",
+    options: [
+      "To change the enable password",
+      "To set a password for the line",
+      "To display the password settings",
+      "To encrypt all plaintext passwords",
+    ],
+  },
 ];
 
 export default SAMPLE_FLASHCARDS;

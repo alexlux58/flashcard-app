@@ -58,6 +58,12 @@ function App() {
             <option value="CCNA">CCNA</option>
             <option value="Python">Python</option>
             <option value="Django">Django</option>
+            <option value="Cybersecurity">Cybersecurity</option>
+            <option value="Physical Security">Physical Security</option>
+            <option value="Incident Response">Incident Response</option>
+            <option value="Data Integrity">Data Integrity</option>
+            <option value="Network Security">Network Security</option>
+            <option value="Authentication">Authentication</option>
           </select>
         </div>
         <div className="form-group">
@@ -73,9 +79,23 @@ function App() {
             <option value="Python Basics">Python Basics</option>
             <option value="Django Basics">Django Basics</option>
             <option value="Routing">Routing</option>
-            <option value="Wireless Security">Wireless Security</option>
             <option value="Switching">Switching</option>
             <option value="Wireless Networking">Wireless Networking</option>
+            <option value="Access Control">Access Control</option>
+            <option value="Control Categories">Control Categories</option>
+            <option value="Security Controls">Security Controls</option>
+            <option value="Incident Handling">Incident Handling</option>
+            <option value="Security Fundamentals">Security Fundamentals</option>
+            <option value="Control Types">Control Types</option>
+            <option value="Firewall Management">Firewall Management</option>
+            <option value="Fundamentals">Fundamentals</option>
+            <option value="Encryption">Encryption</option>
+            <option value="Network Security">Network Security</option>
+            <option value="Network Attacks">Network Attacks</option>
+            <option value="Ethernet Categories">Ethernet Categories</option>
+            <option value="Ethernet Standards">Ethernet Standards</option>
+            <option value="React/MobX">React/MobX</option>
+            <option value="Cisco Commands">Cisco Commands</option>
           </select>
         </div>
         <div className="form-group">
