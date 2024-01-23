@@ -34,6 +34,7 @@ const Flashcard = ({ flashcard }) => {
       className={`card ${flip ? "flip" : ""}`}
       style={{ height: height }}
       onClick={() => setFlip(!flip)}
+      
     >
       {flip ? (
         <div className="back" ref={backEl}>

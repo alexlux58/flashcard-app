@@ -105,6 +105,12 @@ function App() {
               <option value="Cisco Commands">Cisco Commands</option>
               <option value="Routing">Routing</option>
               <option value="Switching">Switching</option>
+              <option value="VTP Configuration">VTP Configuration</option>
+              <option value="Trunk Configuration">Trunk Configuration</option>
+              <option value="VLAN Configuration">VLAN Configuration</option>
+              <option value="Spanning Tree Protocol">
+                Spanning Tree Protocol
+              </option>
             </optgroup>
             <optgroup label="React">
               <option value="React Basics">React Basics</option>
@@ -148,6 +154,21 @@ function App() {
               <option value="Ethernet Categories">Ethernet Categories</option>
               <option value="Ethernet Standards">Ethernet Standards</option>
             </optgroup>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="numQuestions">Number of Questions</label>
+          <select id="numQuestions" onChange={handleNumQuestionsChange}>
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="300">300</option>
+            <option value="400">400</option>
+            <option value="500">500</option>
           </select>
         </div>
       </form>

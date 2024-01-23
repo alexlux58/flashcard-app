@@ -1474,6 +1474,489 @@ const SAMPLE_FLASHCARDS = [
       "Block ciphers are used for data at rest; stream ciphers for data in transit",
     ],
   },
+
+  {
+    id: 124,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the command 'show mac address-table' display in a Cisco switch?",
+    answer: "Shows all MAC table entries of all types.",
+    options: [
+      "Shows only static MAC table entries",
+      "Shows all dynamically learned MAC table entries",
+      "Clears the MAC address table",
+      "Shows all MAC table entries of all types",
+    ],
+  },
+  {
+    id: 125,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the command 'show mac address-table dynamic' display in a Cisco switch?",
+    answer: "Shows all dynamically learned MAC table entries.",
+    options: [
+      "Shows all MAC table entries of all types",
+      "Shows all statically configured MAC addresses",
+      "Shows all dynamically learned MAC table entries",
+      "Displays the MAC address aging time",
+    ],
+  },
+
+  {
+    id: 126,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What is the purpose of the 'show mac address-table dynamic vlan vlan-id' command?",
+    answer: "Shows all dynamically learned MAC table entries in that VLAN.",
+    options: [
+      "Shows a static list of MAC addresses for a VLAN",
+      "Shows all dynamically learned MAC table entries in that VLAN",
+      "Displays MAC address table aging time for a VLAN",
+      "Clears dynamic MAC addresses for a specific VLAN",
+    ],
+  },
+  {
+    id: 127,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does 'show mac address-table dynamic address mac-address' do?",
+    answer:
+      "Shows the dynamically learned MAC table entries with that MAC address.",
+    options: [
+      "Displays all MAC addresses associated with a VLAN",
+      "Shows the dynamically learned MAC table entries with that MAC address",
+      "Lists MAC address table entries for a specific interface",
+      "Empties the MAC table of dynamic entries",
+    ],
+  },
+  {
+    id: 128,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the 'show mac address-table dynamic interface interface-id' command show?",
+    answer:
+      "Shows all dynamically learned MAC table entries associated with that interface.",
+    options: [
+      "Displays the MAC address table size and empty slots",
+      "Shows all MAC table entries of all types",
+      "Shows all dynamically learned MAC table entries associated with that interface",
+      "Shows global and per-VLAN MAC table entries",
+    ],
+  },
+  {
+    id: 129,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What information does 'show mac address-table count' provide?",
+    answer:
+      "Shows the number of entries in the MAC table and the total number of remaining empty slots in the MAC table.",
+    options: [
+      "Shows the number of dynamic entries in the MAC table",
+      "Shows the aging time of MAC table entries",
+      "Shows the number of entries in the MAC table and the total number of remaining empty slots in the MAC table",
+      "Clears the MAC address table of dynamic entries",
+    ],
+  },
+  {
+    id: 130,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the output of 'show mac address-table'?",
+    answer: "Shows the global and per-VLAN MAC table entries.",
+    options: [
+      "Shows the global and per-VLAN MAC table entries",
+      "Displays the dynamic MAC addresses for a specific VLAN",
+      "Lists the MAC addresses statically configured on the switch",
+      "Displays the MAC address table size and empty slots",
+    ],
+  },
+
+  {
+    id: 131,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the command 'line console 0' accomplish in a Cisco switch?",
+    answer: "Changes the context to console configuration mode.",
+    options: [
+      "Changes the context to console configuration mode.",
+      "Shows the running configuration in console mode.",
+      "Resets the console line settings.",
+      "Sets the console line password.",
+    ],
+  },
+  {
+    id: 132,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the purpose of 'line vty 0 4' in a Cisco switch?",
+    answer:
+      "Changes the context to vty configuration mode for the range of vty lines listed in the command.",
+    options: [
+      "Shows the vty line status.",
+      "Configures the IP address for vty lines.",
+      "Changes the context to vty configuration mode for the range of vty lines listed in the command.",
+      "Clears the vty line configurations.",
+    ],
+  },
+  {
+    id: 133,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the 'login' command do when entered in line configuration mode?",
+    answer: "Tells IOS to prompt for a password.",
+    options: [
+      "Tells IOS to prompt for a password.",
+      "Logs the current user out of the switch.",
+      "Displays a login banner message.",
+      "Configures a login banner.",
+    ],
+  },
+  {
+    id: 134,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What is the function of the 'enable secret pass-value' command in a Cisco switch?",
+    answer:
+      "Sets this switch's password that is required for any user to reach enable mode.",
+    options: [
+      "Sets the password for the current line.",
+      "Sets this switch's password that is required for any user to reach enable mode.",
+      "Displays the secret password of the switch.",
+      "Configures a secret password for SSH access only.",
+    ],
+  },
+  {
+    id: 135,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'history size length' command do?",
+    answer:
+      "Defines the number of commands held in the history buffer, for later recall, for users of those lines.",
+    options: [
+      "Sets the length of the console cable.",
+      "Defines the number of commands to display in the running configuration.",
+      "Configures the switch's buffer size for storing logs.",
+      "Defines the number of commands held in the history buffer, for later recall, for users of those lines.",
+    ],
+  },
+  {
+    id: 136,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the purpose of the 'logging synchronous' command?",
+    answer:
+      "Tells IOS to send log messages to the user at natural breakpoints between commands rather than in the middle of a line of output.",
+    options: [
+      "Enables synchronous logging for better log tracking.",
+      "Disables all logging mechanisms on the switch.",
+      "Synchronizes logging information with a remote server.",
+      "Tells IOS to send log messages to the user at natural breakpoints between commands rather than in the middle of a line of output.",
+    ],
+  },
+  {
+    id: 137,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'exec-timeout' command accomplish?",
+    answer:
+      "Sets the inactivity timeout, so that after the defined period of no action, IOS closes the current user login session.",
+    options: [
+      "Executes a command after a set timeout period.",
+      "Sets the inactivity timeout, so that after the defined period of no action, IOS closes the current user login session.",
+      "Determines how long an executed command will run before termination.",
+      "Schedules a command to be executed after a certain period.",
+    ],
+  },
+  {
+    id: 138,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'interface type port-number' command do?",
+    answer:
+      "Changes context to interface mode for the specified port number, such as Fast Ethernet or Gigabit Ethernet.",
+    options: [
+      "Assigns an IP address to an interface type and port number.",
+      "Changes context to interface mode for the specified port number, such as Fast Ethernet or Gigabit Ethernet.",
+      "Displays the interface type and port number status.",
+      "Configures the VLAN for the specified interface type and port number.",
+    ],
+  },
+  {
+    id: 139,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What is the purpose of the 'interface range type port-number - end-port-number' command?",
+    answer:
+      "Changes the context to interface mode for a range of consecutively numbered interfaces, allowing batch configuration.",
+    options: [
+      "Shows a range of interfaces and their types.",
+      "Changes the context to interface mode for a range of consecutively numbered interfaces, allowing batch configuration.",
+      "Tests connectivity for a range of interfaces.",
+      "Shuts down a range of interfaces.",
+    ],
+  },
+  {
+    id: 140,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the 'shutdown' command accomplish when used in interface mode?",
+    answer: "Disables the interface.",
+    options: [
+      "Disables the interface.",
+      "Restarts the interface.",
+      "Shuts down and then immediately restarts the interface.",
+      "Displays the shutdown status of the interface.",
+    ],
+  },
+  {
+    id: 141,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the function of the 'speed' command in interface mode?",
+    answer:
+      "Manually sets the speed of the interface or enables the interface to automatically negotiate the speed.",
+    options: [
+      "Checks the current speed of the interface.",
+      "Limits the speed of data transfer across the interface.",
+      "Manually sets the speed of the interface or enables the interface to automatically negotiate the speed.",
+      "Tests the speed and functionality of the interface.",
+    ],
+  },
+  {
+    id: 142,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is the effect of the 'duplex' command in interface mode?",
+    answer:
+      "Manually sets the duplex mode to half or full, or configures the interface to autonegotiate the duplex setting.",
+    options: [
+      "Checks the duplex mode of all interfaces on the switch.",
+      "Automatically determines the best duplex mode for the interface.",
+      "Manually sets the duplex mode to half or full, or configures the interface to autonegotiate the duplex setting.",
+      "Disables duplexing on the interface.",
+    ],
+  },
+  {
+    id: 143,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What is the effect of using the 'no duplex' command on a Cisco switch interface?",
+    answer:
+      "Reverts to the default setting for duplex, which is auto-negotiation.",
+    options: [
+      "Disables duplexing on the interface.",
+      "Sets the duplex mode to half-duplex.",
+      "Reverts to the default setting for duplex, which is auto-negotiation.",
+      "Sets the duplex mode to full-duplex.",
+    ],
+  },
+  {
+    id: 144,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What does the 'no speed' command do when configured on an interface?",
+    answer: "Reverts to the default speed setting, which is auto-negotiation.",
+    options: [
+      "Sets the interface speed to the highest available speed.",
+      "Disables the interface.",
+      "Reverts to the default speed setting, which is auto-negotiation.",
+      "Removes any speed restrictions on the interface.",
+    ],
+  },
+  {
+    id: 145,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What happens when you enter 'no description' on a Cisco switch interface?",
+    answer: "Removes any previously configured description on the interface.",
+    options: [
+      "Removes any previously configured description on the interface.",
+      "Sets a default description for the interface.",
+      "Hides the interface description from the running configuration.",
+      "Prevents any future descriptions from being added to the interface.",
+    ],
+  },
+  {
+    id: 146,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question:
+      "What information does the 'show mac address-table dynamic' command display?",
+    answer:
+      "Lists the dynamically learned entries in the switch's MAC address table, with subsets by interface and/or VLAN.",
+    options: [
+      "Displays the entire MAC address table, including static and dynamic entries.",
+      "Lists the dynamically learned entries in the switch's MAC address table, with subsets by interface and/or VLAN.",
+      "Shows only the static entries in the MAC address table.",
+      "Clears dynamic entries from the MAC address table.",
+    ],
+  },
+  {
+    id: 147,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What is shown by the 'show interfaces status' command?",
+    answer:
+      "Lists one output line per interface, including the description, operating state, and settings for duplex and speed.",
+    options: [
+      "Lists all configured IP addresses on each interface.",
+      "Shows the up or down status of all interfaces on the switch.",
+      "Lists one output line per interface, including the description, operating state, and settings for duplex and speed.",
+      "Displays the packet statistics for each interface.",
+    ],
+  },
+  {
+    id: 148,
+    category: "CCNA",
+    subcategory: "Cisco Commands",
+    question: "What does the 'show interfaces description' command display?",
+    answer:
+      "Displays one line of information per interface, with a two-item status and includes any description that is configured on the interfaces.",
+    options: [
+      "Displays the IP configuration of each interface.",
+      "Displays one line of information per interface, with a two-item status and includes any description that is configured on the interfaces.",
+      "Shows the packet statistics for each interface.",
+      "Lists the MAC address table entries for each interface.",
+    ],
+  },
+  {
+    id: 149,
+    category: "CCNA",
+    subcategory: "Spanning Tree Protocol",
+    question: "What is the STP cost for a 10 Mbps network connection?",
+    answer: "The STP cost for a 10 Mbps network connection is 100.",
+    options: [
+      "The STP cost for a 10 Mbps network connection is 1.",
+      "The STP cost for a 10 Mbps network connection is 10.",
+      "The STP cost for a 10 Mbps network connection is 100.",
+      "The STP cost for a 10 Mbps network connection is 19.",
+    ],
+  },
+  {
+    id: 150,
+    category: "CCNA",
+    subcategory: "Spanning Tree Protocol",
+    question: "What is the STP cost for a 100 Mbps network connection?",
+    answer: "The STP cost for a 100 Mbps network connection is 19.",
+    options: [
+      "The STP cost for a 100 Mbps network connection is 4.",
+      "The STP cost for a 100 Mbps network connection is 100.",
+      "The STP cost for a 100 Mbps network connection is 2.",
+      "The STP cost for a 100 Mbps network connection is 19.",
+    ],
+  },
+  {
+    id: 151,
+    category: "CCNA",
+    subcategory: "Spanning Tree Protocol",
+    question: "What is the STP cost for a 1 Gbps network connection?",
+    answer: "The STP cost for a 1 Gbps network connection is 4.",
+    options: [
+      "The STP cost for a 1 Gbps network connection is 100.",
+      "The STP cost for a 1 Gbps network connection is 4.",
+      "The STP cost for a 1 Gbps network connection is 19.",
+      "The STP cost for a 1 Gbps network connection is 2.",
+    ],
+  },
+  {
+    id: 152,
+    category: "CCNA",
+    subcategory: "Spanning Tree Protocol",
+    question: "What is the STP cost for a 10 Gbps network connection?",
+    answer: "The STP cost for a 10 Gbps network connection is 2.",
+    options: [
+      "The STP cost for a 10 Gbps network connection is 19.",
+      "The STP cost for a 10 Gbps network connection is 4.",
+      "The STP cost for a 10 Gbps network connection is 2.",
+      "The STP cost for a 10 Gbps network connection is 1.",
+    ],
+  },
+  {
+    id: 153,
+    category: "CCNA",
+    subcategory: "VLAN Configuration",
+    question: "What is the purpose of the 'vlan vlan-id' command in Cisco IOS?",
+    answer:
+      "It is a global config command that both creates the VLAN and puts the CLI into VLAN configuration mode.",
+    options: [
+      "It assigns the VLAN to a specific interface.",
+      "It shows the current configuration of the specified VLAN.",
+      "It is a global config command that both creates the VLAN and puts the CLI into VLAN configuration mode.",
+      "It deletes the specified VLAN from the switch.",
+    ],
+  },
+  {
+    id: 154,
+    category: "CCNA",
+    subcategory: "VLAN Configuration",
+    question:
+      "What does the 'name vlan-name' command do within VLAN configuration mode?",
+    answer: "It is a VLAN subcommand that names the VLAN.",
+    options: [
+      "It is a VLAN subcommand that names the VLAN.",
+      "It defines the name of the switch device.",
+      "It assigns a name to an interface associated with the VLAN.",
+      "It lists all VLAN names configured on the switch.",
+    ],
+  },
+  {
+    id: 155,
+    category: "CCNA",
+    subcategory: "VLAN Configuration",
+    question:
+      "What is the function of the '[no] shutdown vlan vlan-id' command?",
+    answer:
+      "It is a global config command that enables (no shutdown) or disables (shutdown) the VLAN.",
+    options: [
+      "It reboots the VLAN interface.",
+      "It is used to restart the VTP process on the switch.",
+      "It is a global config command that enables (no shutdown) or disables (shutdown) the VLAN.",
+      "It saves the VLAN configuration to the startup configuration.",
+    ],
+  },
+  {
+    id: 156,
+    category: "CCNA",
+    subcategory: "VTP Configuration",
+    question:
+      "What does the 'vtp mode {server | client | transparent | off}' command accomplish?",
+    answer:
+      "It is a global config command that defines the VLAN Trunking Protocol (VTP) mode.",
+    options: [
+      "It checks the status of VTP on the switch.",
+      "It is a global config command that defines the VLAN Trunking Protocol (VTP) mode.",
+      "It configures the switch to forward VTP advertisements.",
+      "It disables VTP completely on the switch.",
+    ],
+  },
+  {
+    id: 157,
+    category: "CCNA",
+    subcategory: "Trunk Configuration",
+    question:
+      "What is the purpose of the 'switchport mode {access | dynamic {auto | desirable} | trunk}' command?",
+    answer:
+      "It is an interface subcommand that configures the trunking mode of a switchport.",
+    options: [
+      "It sets the speed of the switchport.",
+      "It configures the security mode of the switchport.",
+      "It assigns the switchport to a specific VLAN.",
+      "It is an interface subcommand that configures the trunking mode of a switchport.",
+    ],
+  },
 ];
 
 export default SAMPLE_FLASHCARDS;
